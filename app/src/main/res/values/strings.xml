@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My_news_app</string>
+    <string name="publishedat">publishedAt</string>
+    <string name="published">published</string>
+    <string name="title">title</string>
+    <string name="content">content</string>
+    <string name="time">time</string>
+    <string name="detail">detail</string>
+    <string name="author">author</string>
+</resources>
