@@ -13,8 +13,12 @@ public class APIClient {
     private String category = "business";
     private String apiKey = "a9cdae3302144365887e252c47bb0b4b";
 
-
-
+    //........................................................................
+    //=> we use api client to make clean code by make it once
+    //=>all data to make retrofit and make constructor make object
+    //=>when we call the class it make the object and return retrofit
+    //=>than we call the getCall method to connect interface to class
+    //........................................................................
    public APIClient(){
             Retrofit retrofit = new Retrofit.Builder()
                     .baseUrl( baseURL )

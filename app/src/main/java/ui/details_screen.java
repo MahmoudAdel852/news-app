@@ -20,6 +20,10 @@ public class details_screen extends AppCompatActivity {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_details );
 
+        //............................................................
+        //=> getIntent () .. use to get data from adapter
+        //............................................................
+
         String tv_title= getIntent().getStringExtra("title");
         title= findViewById( R.id.title_details );
         title.setText( tv_title );

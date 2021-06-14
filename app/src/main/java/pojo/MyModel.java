@@ -1,7 +1,9 @@
 package pojo;
 
 import java.util.List;
-
+// .......................................
+//=>get data to model from JSON
+// ......................................
 public class MyModel {
     public MyModel(String status, int totalResults, List<pojo.articles> articles) {
         this.status = status;

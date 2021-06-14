@@ -21,9 +21,15 @@ import pojo.articles;
 
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
+
+    //.................................................................
+    //=> adapter to format data from data base using recycler view
+    //=>
+    //.................................................................
+
     private Context context1;
-    List<articles> myList;
-    Units units=new Units();
+    private List<articles> myList;
+    private Units units=new Units();
     MyAdapter (Context context, List<articles> list){
         this.context1=context;
         myList= list;
